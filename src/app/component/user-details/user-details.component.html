@@ -1,0 +1,30 @@
+<div class="outerLayer">
+    <mat-card class="overAllContainer">
+        <mat-card-title class="tittleAlignment">{{'USER.USER_DETAILS_LABEL' | translate}}</mat-card-title>
+        <div class="imageSizing">
+            <img src='../../../samples/assets/images/user2.jpg'
+                class="imageStyle">
+        </div>
+        <mat-card-content class="dFlexCloumn">
+            <div class="selectFieldalign">
+                <app-language-select></app-language-select>
+            </div>
+            <div class="aligndetails">
+                <span><b>{{'USER_NAME_LABEL' | translate}}:</b></span>
+                <span>{{userData.userName}}</span>
+            </div>
+            <div class="aligndetails">
+                <span><b>{{'USER.AGE' | translate}} :</b></span>
+                <span>{{userData.age}}</span>
+            </div>
+            <div class="aligndetails">
+                <span><b>{{'USER.GENDER' | translate}} :</b></span>
+                <span>{{userData.gender}}</span>
+            </div>
+        </mat-card-content>
+        <mat-card-footer class="btnAlign">
+            <button mat-button mat-raised-button color="primary" (click)="onLogout()">{{'LOGOUT_LABEL' |
+                translate}}</button>
+        </mat-card-footer>
+    </mat-card>
+</div>

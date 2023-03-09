@@ -1,0 +1,5 @@
+<mat-form-field appearance="outline">
+    <mat-select (selectionChange)="switchLang($event)"  [(ngModel)]="selectedLang">
+        <mat-option *ngFor="let language of translate.getLangs()" [value]="language">{{getLangOption(language)}}</mat-option>
+    </mat-select>
+</mat-form-field>

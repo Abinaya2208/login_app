@@ -1,0 +1,15 @@
+{
+    "LOGIN_LABEL": "लॉग इन करें",
+    "USER_NAME_LABEL": "उपयोगकर्ता नाम",
+    "PASSWORD_LABEL" : "पासवर्ड",
+    "SUBMIT_LABEL": "जमा करना",
+    "USER_NAME_REQUIRED": "उपयोगकर्ता नाम आवश्यक है",
+    "PASSWORD_REQUIRED": "पासवर्ड की आवश्यकता है",
+    "ENTER_VALID_CREDENTIALS" : "कृपया मान्य क्रेडेंशियल्स दर्ज करें",
+    "LOGOUT_LABEL" : "लॉग आउट",
+    "USER":{
+        "AGE":"आयु",
+        "GENDER": "लिंग",
+        "USER_DETAILS_LABEL" : "उपयोगकर्ता विवरण"
+    }
+}

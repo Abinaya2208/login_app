@@ -1,0 +1,15 @@
+{
+    "LOGIN_LABEL": "ప్రవేశించండి",
+    "USER_NAME_LABEL": "వినియోగదారు పేరు",
+    "PASSWORD_LABEL" : "పాస్వర్డ్",
+    "SUBMIT_LABEL": "సమర్పించండి",
+    "USER_NAME_REQUIRED": "వినియోగదారు పేరు అవసరం",
+    "PASSWORD_REQUIRED": "పాస్‌వర్డ్ అవసరం",
+    "ENTER_VALID_CREDENTIALS" : "దయచేసి చెల్లుబాటు అయ్యే ఆధారాలను నమోదు చేయండి",
+    "LOGOUT_LABEL" : "లాగ్అవుట్",
+    "USER":{
+        "AGE":"వయస్సు",
+        "GENDER": "లింగం",
+        "USER_DETAILS_LABEL" : "వినియోగదారు వివరాలు"
+    }
+}

@@ -1,0 +1,36 @@
+.alignCard{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+.dFlexCloumn{
+    display: flex;
+    flex-direction: column;
+}
+.tittleAlignment{
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+}
+.imageStyle{
+    width: 200px;
+    height: 200px;
+}
+.imageSizing{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.btnAlign{
+    margin: auto;
+    margin-bottom: 20px;
+}
+.selectFieldalign{
+    display: flex;
+    justify-content: flex-end;
+}
+.checkError{
+    margin: 10px;
+    color: #ff0000;
+    font-weight: bold;
+}

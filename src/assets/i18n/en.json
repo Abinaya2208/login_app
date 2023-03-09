@@ -1,0 +1,15 @@
+{
+    "LOGIN_LABEL": "Login",
+    "USER_NAME_LABEL": "User Name",
+    "PASSWORD_LABEL" : "Password",
+    "SUBMIT_LABEL": "Submit",
+    "USER_NAME_REQUIRED": "User name is required",
+    "PASSWORD_REQUIRED": "Password is required",
+    "ENTER_VALID_CREDENTIALS" : "Please Enter valid credentials",
+    "LOGOUT_LABEL" : "Logout",
+    "USER":{
+        "AGE":"Age",
+        "GENDER": "Gender",
+        "USER_DETAILS_LABEL" : "User Details"
+    }
+}

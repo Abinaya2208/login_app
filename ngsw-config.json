@@ -1,0 +1,43 @@
+{
+  "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+  "index": "/index.html",
+  "dataGroups": [{
+    "name":"languageResponse",
+    "urls":[
+      "http://localhost/sample/assets/i18n/hin.json",
+      "http://localhost/sample/assets/i18n/en.json",
+      "http://localhost/sample/assets/i18n/tel.json"
+    ],
+    "cacheConfig": {
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": "3d"
+    }
+  }],
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "/manifest.webmanifest",
+          "/*.css",
+          "/*.js"
+        ]
+      }
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/**",
+          "/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
+        ]
+      }
+    }
+  ]
+}
